@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.side{
+    
+    transition: 0.5s ease-out;
+}
+
+
+.sidebar{
+    width: 150px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #1a73e8;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: inset -8px 0px 5px -1px #FFFFFF;
+}
+
+#sidebar_main{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+}
+#sidebar_main p{
+    font-family: 'TheJamsil5Bold';
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-size: 25px;
+}
+.sidebar-item {
+    display: flex;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    justify-content: left;
+    padding-left: 16px;
+}
+.sidebar-item p{
+    align-self: center;
+    font-family: 'LINESeedKR-Bd';
+}
+.sidebar-item:hover{
+    background-color: white;
+    color : black;
+}
+
+.name-tag{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 25px;
+}

@@ -1,0 +1,43 @@
+.mainMember-card-wrapper{
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+      padding:30px;
+      border-radius: 10px;
+      height: 330px;
+      overflow: hidden;
+}
+
+.mainMember-card-wrapper:hover {
+      transform: translateY(-10px);
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mainMember-card-image {
+      height: 130px; /* 이미지 높이 */
+      width: 130px;
+      border-radius: 50%;
+      margin-bottom : 10px;
+      overflow: hidden;
+}
+
+.mainMember-card-image > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+.mainMember-card-body {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.mainMember-card-text {
+      width: 340px;
+}
+.icon_image{
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}

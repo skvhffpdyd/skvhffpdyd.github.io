@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .stackmodal-box {
+    width: 300px !important;
+  }
+  .stackmodal-title {
+    font-size: 20px;
+  }
+  .button-box {
+    text-align: center;
+  }
+}
+.stackmodal-box {
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  padding: 20px; */
+}
+.stackmodal-title {
+  font-size: 36px;
+  color: #343a40;
+  text-align: center;
+}
+.stack-button-box {
+  margin: 10px;
+  text-align: right;
+}
+.stackmodal-top-box {
+  margin: 20px;
+}

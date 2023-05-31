@@ -1,0 +1,55 @@
+.footer-container {
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.logo {
+/* 로고의 스타일 */
+justify-self: center;
+grid-column: 1;
+}
+
+.contact {
+/* 연락처 정보의 스타일 */
+grid-column: 1;
+justify-self: center;
+color: rgb(141, 140, 140);
+}
+
+.links {
+/* 링크 목록의 스타일 */
+grid-column: 2;
+justify-self: center;
+}
+
+.links ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.links li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.links li:last-child {
+margin-right: 0;
+}
+
+.links a {
+text-decoration: none;
+color: #333;
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    font-size: 12px;
+  }
+  .links{
+    font-size: 12px;
+  }
+}

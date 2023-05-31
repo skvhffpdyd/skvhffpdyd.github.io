@@ -1,0 +1,47 @@
+@media (max-width: 1604px) {
+  /* 모바일 디스플레이 크기에 맞게 변경 */
+  .members-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .member-card-container {
+    width: 100% !important;
+  }
+  .member-category {
+    width: auto !important;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.search-box {
+  margin: 20px;
+  text-align: center;
+}
+.members-title-box {
+  text-align: center;
+}
+.subtitle {
+  color: rgb(120, 121, 121);
+}
+.members-container {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.member-category {
+  width: 250px;
+}
+.member-card-container {
+  width: 70%;
+  grid-gap: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

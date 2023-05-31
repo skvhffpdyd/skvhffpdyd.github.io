@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+  .profile-top-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-info-box {
+    order: 2;
+    padding: 10px;
+    width: auto !important; 
+  }
+
+  .profile-img-box {
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+  .profile-bottom-box {
+    padding: 10px;
+  }
+  .profile-box {
+    width: 100%; /* 너비를 100%로 설정 */
+    max-width: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .profile-box {
+    width: 100%; /* 너비를 100%로 설정 */
+    max-width: 400px;
+  }
+}
+@media (max-width: 399px) {
+  .profile-box {
+    width: 100%; /* 너비를 100%로 설정 */
+    max-width: 350px;
+  }
+}
+.profile-box {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  margin-top: 30px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 30px;
+}
+.profile-email-box,
+.profile-githublink-box,
+.profile-grade-box,
+.bj-box {
+  display: flex;
+  padding-top: 10px;
+}
+.profile-email-box > p,
+.profile-githublink-box > p,
+.profile-grade-box > p,
+.bj-box > p {
+  margin-left: 10px;
+}
+.profile-top-box {
+  display: flex;
+}
+.profile-info-box{
+  width: 50%;
+  text-align: left;
+}
+.profile-img-box {
+  margin: 0 auto;
+}
+.profile-bottom-box {
+  text-align: left;
+}
+.wantteam-box > p,
+.good-box > p,
+.soso-box > p {
+  margin: 5px;
+}
+.editbutton-box {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+}

@@ -1,0 +1,63 @@
+@font-face {
+      font-family: 'LINESeedKR-Bd';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+}
+
+.mainTeam-card-wrapper{
+      border-radius: 10px;
+      height: 420px;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+      overflow: hidden;
+}
+.mainTeam-card-wrapper:hover {
+      transform: translateY(-10px);
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.mainTeam-card-image {
+      height: 170px; /* 이미지 높이 */
+      overflow: hidden; /* 이미지가 카드를 넘어갈 때 자르기 */
+} 
+.mainTeam-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+.mainTeam-card-body {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 1px auto;
+      grid-row-gap: 0px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+}
+.mainTeam-card-subbody{
+      width: 100%;
+      display: grid;
+      grid-row: 4;
+      grid-template-columns: auto 1px auto;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+}
+.mainTeam-card-text {
+      font-family: 'LINESeedKR-Bd';
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      width: 100%;
+      font-size: 17px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+.mainTeam_icon_image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 8px;
+}

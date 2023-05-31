@@ -1,0 +1,13 @@
+#routes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#mypage{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 92vh;
+    flex-direction: row;
+}

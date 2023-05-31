@@ -1,0 +1,20 @@
+.myteamlist-container {
+  display: flex;
+  flex-wrap: wrap; /* 요소들을 자동으로 다음 줄로 넘기도록 함 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  padding: 20px;
+  gap: 20px;
+}
+
+.myteamlist_wrapper {
+  display: flex;
+  flex-wrap: wrap; /* 요소들을 자동으로 다음 줄로 넘기도록 함 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  gap: 20px;
+}
+
+.myteamlist_wrapper > div {
+  flex-basis: 400px; /* 한 줄에 보여질 카드 개수를 조절합니다. */
+}

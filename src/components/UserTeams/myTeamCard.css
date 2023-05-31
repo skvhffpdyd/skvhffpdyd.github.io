@@ -1,0 +1,126 @@
+.myTeam-card-wrapper{
+      display: flex;
+      border-radius: 10px;
+      padding: 5px;
+      padding-top: 0px;
+      /* height: 100px; */
+      margin-top: 7px;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+      align-items: center;
+      width: 400px;
+  }
+  .myTeam-card-wrapper:hover {
+        transform: translateY(-10px);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+       
+  }
+  .myTeam-card-image {
+        height: 60px; /* 이미지 높이 */
+        width: 60px;
+        overflow: hidden; /* 이미지가 카드를 넘어갈 때 자르기 */
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 5px;
+  } 
+  .myTeam-card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+  }
+  /* .myTeam-card-body {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  } */
+  .myTeam-card-text {
+      margin-left: 5px;
+      margin-right: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+  .myTeam-card-text-keyword {
+        margin-left: 5px;
+        margin-right: -5px;
+        background-color: rgb(186, 186, 186,0.2);
+        height: 25px;
+        border-radius: 6px;
+        align-items: center;
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #606060;
+    }
+  .icon_image{
+      width: 340px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+  }
+  .myTeam-card-title{
+      margin-top: 5px;
+      height: 21px;
+      margin-bottom: 10px;
+  }
+  .myTeam-card-info{
+        height: 100%;
+        padding-top: 5px;
+        margin-left: 10px;
+        width: 300px;
+  }
+  .myTeam-card-keyword{
+        margin-top: 5px;
+        
+        align-items: center;
+        display: flex;
+        
+  }
+  .default-image{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+         background-image: linear-gradient(#cccccc,#535353); 
+        
+        font-size: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+  }
+  .right{
+        text-align: right;
+        
+  }
+  .font-small{
+        font-size: 10px;
+  }
+  .mg-top-5px{
+      margin-top: 5px;
+  }
+@media (max-width:400px){
+      .myTeam-card-wrapper{
+            width: 90%;
+            flex-direction: column;
+            padding: 15px;
+      }
+      .myTeam-card-info{
+            font-size: 10px;
+            padding: 5px;
+            margin-left: 0px;
+            width: 95%;
+      }
+      .myTeam-card-image{
+           margin-left: 0px;
+           scale: 1.2;
+      }
+      .mg-top-5px{
+            position: relative;
+            top : 25px;
+            left: 10px;
+
+        }
+}

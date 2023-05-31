@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.find{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.find_container{
+    width: 95%;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(185, 185, 185);
+}
+.find_text{
+    font-family: 'TheJamsil5Bold';
+    text-align: center;
+    font-size: 40px;
+}
+.find_title > * {
+    margin: 10px;
+}
+.find_body_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.rc-group{
+    background-color: #1a73e8;
+    height: 50px;
+    display: flex;
+    color : #ffffff;
+}
+.rc-team{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rc-user{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selected{
+    background-color: #ffffff;
+    color : #000000;
+    
+}
+.shadow{
+    box-shadow: 1px 1px 2px#626161;
+}
+@media (max-width: 768px) {
+    .find_container {
+        width: 100%;
+        padding: 0px;
+        border-radius: 30px;
+        border: 1px solid rgb(185, 185, 185);
+    }
+    .find_text{
+        font-size: 32px;
+        white-space: normal;
+    }   
+}

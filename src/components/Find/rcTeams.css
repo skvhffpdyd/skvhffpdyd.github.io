@@ -1,0 +1,14 @@
+.find-team{
+grid-template-columns: repeat(auto-fit, minmax(400px, 0.25fr));
+  display: grid;
+  grid-gap: 50px;
+  justify-content: center; 
+  align-items: center; 
+}
+@media (max-width: 768px) {
+    .find-team{
+        display: grid;
+        place-items: center; 
+        gap: 30px;
+    }
+}

@@ -1,0 +1,68 @@
+.teamMembers{
+  padding-top: 30px;
+  width: 90%;
+}
+.member-container {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border: 2px solid rgb(224, 224, 224);
+border-radius: 30px;
+margin-top: 10px;
+padding: 15px;
+height: 100%;
+}
+.user-image{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.user-info {
+  width: 80%;
+  min-width: 200px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 30px;
+  height: auto;
+  padding: 20px;
+  margin-top: 10px;  
+}
+.user-keywords{
+  color: rgb(144, 144, 144);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.user-keyword{
+  text-align: center;
+  font-size: 15px;
+
+}
+.user-grade{
+  display: flex;
+  justify-content: center;
+}
+.user-email{
+  display: flex;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+.user-nickname{
+  display: flex;
+  font-style: bold;
+  font-size: 25px;
+}
+.delete-member{
+  color: white;
+  background-color: rgb(244, 117, 117);
+  padding: 5px;
+  border-radius: 20px;
+}
+.delete-member:hover{
+  background-color: rgb(238, 59, 59);
+}
+.grid-50-50{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

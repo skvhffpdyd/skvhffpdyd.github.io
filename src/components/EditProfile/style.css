@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+  /* 모바일 디스플레이 크기에 맞게 변경 */
+  .profile-edit-box {
+    width: 350px !important;
+  }
+  .inline-box {
+    flex-direction: column;
+  }
+
+  .profile-edit-img-box {
+    order: -1; /* 위로 이동 */
+    margin-bottom: 20px; /* 원하는 여백 조정 */
+  }
+
+  .left-box {
+    order: 1; /* 아래로 이동 */
+    flex-basis: 100%; /* 너비를 100%로 설정 */
+  }
+  .profile-edit-box {
+    width: 100%; /* 너비를 100%로 설정 */
+    max-width: 700px; /* 최대 너비를 800px로 설정 (선택 사항) */
+  } 
+}
+.profile-edit-box {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 30px;
+}
+.nickname-box,
+.email-box,
+.grade-box,
+.githublink-box,
+.keyword-box {
+  text-align: left;
+}
+.nickname-text-box {
+  height: auto;
+  display: flex;
+}
+.p-title {
+  text-align: left;
+  width: 90px;
+}
+.inline-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+.profile-edit-img-box {
+  margin: 0 auto;
+}
+.field-toggle-box,
+.subject-toggle-box {
+  text-align: left;
+  margin-top: 20px;
+}
+.image-button {
+  display: none;
+}
+.profile-edit-img-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 200px;
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid var(--bGrayBorder);
+}
+.profile-title {
+  text-align: center;
+  margin: 5px;
+  color: rgb(123, 123, 123);
+}
+.profile-img {
+  transition: filter 0.3s;
+}
+.overlay {
+  position: absolute;
+  top: 35%; /* 원하는 위치로 조정하세요 */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.profile-edit-img-box:hover .profile-img {
+  filter: brightness(80%);
+}
+.profile-edit-img-box:hover .overlay {
+  opacity: 1;
+}
+.button-box button.selected {
+  background-color:deepskyblue;
+  border-color:deepskyblue;
+  color: #fff;
+}

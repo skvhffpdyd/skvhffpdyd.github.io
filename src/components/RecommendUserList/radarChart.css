@@ -1,0 +1,17 @@
+.radarChart_Bar{
+    width: 400px;
+}
+.radarChart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .radarChart_Bar{
+        width: 300px;        
+    }
+    .radarChart{
+        display: grid;
+    }
+    
+}

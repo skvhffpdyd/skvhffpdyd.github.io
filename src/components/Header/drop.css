@@ -1,0 +1,39 @@
+.drop-menu{
+    list-style: none;
+    margin-top: 2px;
+    position: absolute;
+    top: 70%;
+    width: 160px;
+    z-index: 100;
+    box-shadow: 0 1px 3px #165fc0;
+    flex-direction: column;
+    border-radius: 1px;
+    background-color: #1a73e8;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-out;
+}
+.drop-menu-hidden{
+    list-style: none;
+    margin-top: 2px;
+    position: absolute;
+    top: 80%;
+    width: 160px;
+    z-index: 100;
+    box-shadow: 0 1px 2px #0d2c60;
+    flex-direction: column;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 6px;
+    background-color: #1a73e8;
+    visibility: hidden;
+    transition: 0.3s ease-out ;
+    opacity: 0;
+}
+.drop-item:hover{
+    background-color: rgba(179, 179, 179, 0.8); /* 변경된 색상 */
+    border-radius: 0px;
+}
+.drop-item{
+    padding: 10px;
+}

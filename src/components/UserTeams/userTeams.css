@@ -1,0 +1,8 @@
+.userTeams_select{
+    width: 25%;
+}
+@media (max-width: 768px) {
+    .userTeams_select{
+        width: 50%;
+    }
+}

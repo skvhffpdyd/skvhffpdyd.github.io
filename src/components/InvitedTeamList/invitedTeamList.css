@@ -1,0 +1,25 @@
+.invited-btn-group{
+    margin-top: 5px;
+    
+    display: flex;
+    justify-content: right;
+    
+}
+.invited-btn-group button{
+    margin: 5px;
+    width: 45px;
+    height: 27px;
+    border: 0px;
+}
+.invited-chat-btn{
+    background-color: rgb(98, 168, 233);
+    color: white;
+}
+.invited-approve-btn{
+    background-color: rgb(130, 239, 159);
+    color: white;
+}
+.invited-refuse-btn{
+    background-color: rgb(249, 67, 58);
+    color: white;
+}

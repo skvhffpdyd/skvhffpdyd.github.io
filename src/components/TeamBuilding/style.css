@@ -1,0 +1,47 @@
+.teambuildingform {
+  width: 100%;
+  background-color: aliceblue;
+}
+.team_form {  
+  padding: 30px;
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+}
+.team_label {
+  padding: 16px;  
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border-bottom: 3px solid #f2f2f2;
+}
+.team_row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.team_item{
+  width: 50%; 
+  margin-bottom: 20px;
+}
+.team_editor{
+  margin-top: 16px;
+}
+.team_button{
+  margin-top: 16px;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .team_form {  
+    padding: 10px;
+    width: 350px;
+  }
+  .team_item{
+    width: 100%; 
+  }
+}
+
+.team-url{
+  width: 100%;
+  
+}

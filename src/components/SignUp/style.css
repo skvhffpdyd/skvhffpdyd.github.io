@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  /* 모바일 디스플레이 크기에 맞게 변경 */
+  .signup-box {
+    width: 300px !important;
+  }
+  .signup {
+    margin-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .signup-nickname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+.signup-box {
+  width: 500px;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  padding: 20px; */
+}
+.signup-title {
+  font-size: 36px;
+  color: #343a40;
+  text-align: center;
+}
+.signup-text-box {
+  display: flex;
+  justify-content: center;
+}
+.signup {
+  margin-left: 90px;
+}
+.signup-text {
+  text-align: right;
+  width: 60%;
+}
+.login-button,
+.signup-button {
+  text-align: center;
+  padding: 5px;
+}
+.goLogin-button {
+  display: flex;
+  justify-content: center;
+}

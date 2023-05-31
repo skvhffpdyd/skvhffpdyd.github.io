@@ -1,0 +1,100 @@
+/* 공통 스타일 */
+* {
+  box-sizing: border-box;
+}
+
+/* 카테고리 테이블 */
+
+.category-table {
+  font-family: Arial, sans-serif;
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fffdfd;
+  border-radius: 15px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  border: 2px solid #b7c6d6;
+  height: 470px;
+}
+
+ 
+.table-line{
+  margin:10px auto;
+  width: 200px;
+
+}
+
+
+.category-title h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 테이블 행 및 열 스타일 */
+tbody tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+tbody tr:last-child {
+  margin-bottom: 0;
+}
+
+tbody td {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+input[type='checkbox'] {
+  margin-right: 8px;
+}
+
+.filter-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #0662c5;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Pretendard-Regular';
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@media  (max-width:1604px) {
+.team-container{
+  flex-direction: column;
+}
+.team-body{
+  padding-left: 0;
+}
+.category-table{
+  width: 90vw;
+}
+
+}

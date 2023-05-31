@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  /* 모바일 디스플레이 크기에 맞게 변경 */
+  .login-box {
+    width: 300px !important;
+  }
+}
+.login-box {
+  width: 500px;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  padding: 20px; */
+}
+.login-title {
+  font-size: 36px;
+  color: #343a40;
+  text-align: center;
+}
+.login-text {
+  text-align: center;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.gosignup-button {
+  display: flex;
+  justify-content: center;
+}
+.Button {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.text {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

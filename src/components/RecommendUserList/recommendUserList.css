@@ -1,0 +1,38 @@
+.recommendUser{
+    margin: 20px;
+}
+.추천유저{
+    display: flex;
+}
+.추천유저_container{
+    padding: 15px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.추천유저_내용{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.recommendUser_btn{
+    width: 400px;
+}
+@media (max-width: 768px) {
+    .recommendUser_btn{
+        width: 100%;
+    }
+    .추천유저 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+    .추천유저_내용{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.8);        
+    }
+    
+}
